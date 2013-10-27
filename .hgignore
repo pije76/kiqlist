@@ -1,0 +1,15 @@
+/env.kiqlist
+virenv
+*.psd
+*.pdf
+*.pyc
+*.pyo
+*.db
+.DS_Store
+.coverage
+local_settings.py
+/media
+/test
+/spec
+/__MACOSX
+/build
