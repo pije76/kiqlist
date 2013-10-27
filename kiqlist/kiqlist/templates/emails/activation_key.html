@@ -1,0 +1,4 @@
+{% load url from future %}
+<h2>Hi {{ user.first_name }} {{ user.last_name }}!</h2>
+<p>You're almost done. Just click on the link below to confirm your account:</p>
+<p><a href="http://{{ current_site.domain }}{% url 'users.views.activate' activation_key.key %}">http://{{ current_site.domain }}{% url 'users.views.activate' activation_key.key %}</a></p>

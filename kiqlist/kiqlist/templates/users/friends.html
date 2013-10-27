@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+
+{% load url from future %}
+{% load thumbnail %}
+
+{% block scripts %}
+<script type="text/javascript">
+$(function () {
+	var followButtonOnClick = function () {
+		var self = this;
+		var userId = $(this).parent().data("user-id");
+
+		$.getJSON("/users/follow/" + userId + "/", function (response) {
+			if (response.error_code == 0) {
+				toggleFollowButton($(self));
+			}else {
+				message("error", response.error_message);
+			}
+		});
+	};
+
+	var unfollowButtonOnClick = function () {
+		var self = this;
+		var userId = $(this).parent().data("user-id");
+
+		$.getJSON("/users/unfollow/" + userId + "/", function (response) {
+			if (response.error_code == 0) {
+				toggleFollowButton($(self));
+			}else {
+				message("error", response.error_message);
+			}
+		});
+	};
+
+	var toggleFollowButton = function (buttonElement) {
+		if (buttonElement.hasClass("follow-button")) {
+			buttonElement.attr("class", "unfollow-button");
+			buttonElement.children("input").val("Unfollow");
+			buttonElement.unbind("click");
+			buttonElement.click(unfollowButtonOnClick);
+		}else {
+			buttonElement.attr("class", "follow-button");
+			buttonElement.children("input").val("Follow");
+			buttonElement.unbind("click");
+			buttonElement.click(followButtonOnClick);
+		}
+	};
+
+	$(".follow-button").click(followButtonOnClick);
+	$(".unfollow-button").click(unfollowButtonOnClick);
+
+	var chooseTab = function (tab, tabContent) {
+		tab.parent().children().removeClass("active");
+		tab.addClass("active");
+		$(".tab-content").hide();
+		tabContent.show();
+	};
+
+	var showFollowing = function () {
+		chooseTab($(".following-tab"), $(".following-tab-content"));
+	};
+
+	var showFollowers = function () {
+		chooseTab($(".followers-tab"), $(".followers-tab-content"));
+	};
+
+	route([
+		{ hash: /^#following$/, action: showFollowing },
+		{ hash: /^#followers$/, action: showFollowers }
+	]);
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="content friends">
+	<div class="tabs">
+		<div class="tab following-tab active">
+			<a href="#following"><h3>Following ({{ user.following.count }})</h3></a>
+		</div>
+		<div class="tab followers-tab">
+			<a href="#followers"><h3>Followers ({{ user.followers.count }})</h3></a>
+		</div>
+	</div>
+	<div class="tab-content following-tab-content friends-list">
+		{% if following_users %}
+			{% for friend in following_users %}
+				<div class="friend" data-user-id="{{ friend.id }}">
+					<div class="unfollow-button">
+						<input type="button" value="Unfollow"/>
+					</div>
+
+					<div class="photo">
+						{% thumbnail friend.photo "40x40" crop="center" as im %}
+							<img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"/>
+						{% empty %}
+							<img src="{{ STATIC_URL }}img/small_no_photo.png"/>
+						{% endthumbnail %}
+					</div>
+
+					<div class="name"><a href="{% url 'users.views.profile' friend.pk %}">{{ friend.first_name }} {{ friend.last_name }}</a></div>
+				</div>
+			{% endfor %}
+		{% else %}
+			<p class="no-following">No following.</p>
+		{% endif %}
+	</div>
+	<div class="tab-content followers-tab-content friends-list hidden">
+		{% if followers_users %}
+			{% for friend in followers_users %}
+				<div class="friend" data-user-id="{{ friend.id }}">
+					{% if friend in following_users %}
+						<div class="unfollow-button">
+							<input type="button" value="Unfollow"/>
+						</div>
+					{% else %}
+						<div class="follow-button">
+							<input type="button" value="Follow"/>
+						</div>
+					{% endif %}
+
+					<div class="photo">
+						{% thumbnail friend.photo "40x40" crop="center" as im %}
+							<img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"/>
+						{% empty %}
+							<img src="{{ STATIC_URL }}img/small_no_photo.png"/>
+						{% endthumbnail %}
+					</div>
+
+					<div class="name"><a href="{% url 'users.views.profile' friend.pk %}">{{ friend.first_name }} {{ friend.last_name }}</a></div>
+				</div>
+			{% endfor %}
+		{% else %}
+			<p class="no-followers">No followers.</p>
+		{% endif %}
+	</div>
+
+	{% if who_to_follow_users %}
+		<div class="who-to-follow">
+			<h3>Who to follow</h3>
+
+			<div class="friends-list">
+				{% for friend in who_to_follow_users %}
+					<div class="friend" data-user-id="{{ friend.id }}">
+						{% if friend in following_users %}
+							<div class="unfollow-button">
+								<input type="button" value="Unfollow"/>
+							</div>
+						{% else %}
+							<div class="follow-button">
+								<input type="button" value="Follow"/>
+							</div>
+						{% endif %}
+
+						<div class="photo">
+							{% thumbnail friend.photo "40x40" crop="center" as im %}
+								<img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"/>
+							{% empty %}
+								<img src="{{ STATIC_URL }}img/small_no_photo.png"/>
+							{% endthumbnail %}
+						</div>
+
+						<div class="name"><a href="{% url 'users.views.profile' friend.pk %}">{{ friend.first_name }} {{ friend.last_name }}</a></div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+</div>
+{% endblock %}

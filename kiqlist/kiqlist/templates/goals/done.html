@@ -1,0 +1,11 @@
+{% load url from future %}
+
+<form method="post" action="{% url 'goals.views.done' goal.id %}" enctype="multipart/form-data">
+	{% csrf_token %}
+
+	{{ form.as_p }}
+
+	<div class="submit">
+		<input type="submit" value="Done"/>
+	</div>
+</form>

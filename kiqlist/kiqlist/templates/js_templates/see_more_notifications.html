@@ -1,0 +1,15 @@
+<ul>
+    {% templatetag openvariable %}each notifications{% templatetag closevariable %}
+	<li>
+        {% templatetag openvariable %}if $value.fields.url{% templatetag closevariable %}
+		<a class="${$value.fields.cssClass}" href="${$value.fields.url}" data-pk="${$value.pk}">
+			<span class="notification-content">${$value.fields.content}</span>
+			<span class="notification-age">${$value.fields.age}</span>
+		</a>
+        {% templatetag openvariable %}else{% templatetag closevariable %}
+		<span class="notification-content">${$value.fields.content}</span>
+		<span class="notification-age">${$value.fields.age}</span>
+        {% templatetag openvariable %}/if{% templatetag closevariable %}
+	</li>
+    {% templatetag openvariable %}/each{% templatetag closevariable %}
+</ul>

@@ -1,0 +1,42 @@
+<div class="goal {% templatetag openvariable %}if fields.is_done{% templatetag closevariable %}done{% templatetag openvariable %}/if{% templatetag closevariable %}">
+	{% include "goals/counters.html" %}
+	<div class="image">
+        {% templatetag openvariable %}if fields.image{% templatetag closevariable %}
+		<img src="${fields.image}" width="80" height="80"/>
+        {% templatetag openvariable %}else{% templatetag closevariable %}
+		<img src="{{ STATIC_URL }}img/no_goal_image.png" width="80" height="80"/>
+        {% templatetag openvariable %}/if{% templatetag closevariable %}
+	</div>
+	<div class="short-info">
+		<div class="title">${index}. ${fields.title}</div>
+		<div class="description">${fields.description}</div>
+	</div>
+	<div class="full-info">
+		{% templatetag openvariable %}if editable{% templatetag closevariable %}
+		<div class="actions">
+			<ul>
+				<li><a href="#" class="done-link">Done</a></li>
+				<li><a href="#" class="edit-link">Edit</a></li>
+				<li><a href="#" class="delete-link">Delete</a></li>
+			</ul>
+		</div>
+		{% templatetag openvariable %}/if{% templatetag closevariable %}
+		{% templatetag openvariable %}if fields.due_date{% templatetag closevariable %}
+			<p class="due-date">Due date: ${fields.due_date}</p>
+		{% templatetag openvariable %}/if{% templatetag closevariable %}
+		{% templatetag openvariable %}if fields.tags{% templatetag closevariable %}
+			<div class="tags">
+				<ul>
+					{% templatetag openvariable %}each fields.tags{% templatetag closevariable %}
+						<li><a href="/tags/search/${$value}">${$value}</a></li>
+					{% templatetag openvariable %}/each{% templatetag closevariable %}
+				</ul>
+			</div>
+		{% templatetag openvariable %}/if{% templatetag closevariable %}
+
+		<div class="comments">
+			<div class="add-comment-form">
+			</div>
+		</div>
+	</div>
+</div>

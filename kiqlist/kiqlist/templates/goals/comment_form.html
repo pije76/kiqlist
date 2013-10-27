@@ -1,0 +1,11 @@
+{% load url from future %}
+
+<form method="post" action="{% url 'goals.views.add_comment' goal.pk %}">
+	{% csrf_token %}
+
+	<textarea name="content"/>
+
+	<div class="submit">
+		<input type="submit" value="Comment"/>
+	</div>
+</form>

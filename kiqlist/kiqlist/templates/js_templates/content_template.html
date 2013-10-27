@@ -1,0 +1,86 @@
+{% templatetag openvariable %}if type == 'goal'{% templatetag closevariable %}
+<div id="goal${pk}" class="goal-card">
+	{% include "goals/counters.html" %}
+	<div class="images">
+        {% templatetag openvariable %}if fields.is_done{% templatetag closevariable %}
+
+            {% templatetag openvariable %}if fields.images.length{% templatetag closevariable %}
+                {% templatetag openvariable %}each fields.images{% templatetag closevariable %}
+                <img src="${$value}"/>
+                {% templatetag openvariable %}/each{% templatetag closevariable %}
+            {% templatetag openvariable %}else{% templatetag closevariable %}
+            <img src="{{ STATIC_URL }}img/no_goal_image.png"/>
+            {% templatetag openvariable %}/if{% templatetag closevariable %}
+
+        {% templatetag openvariable %}else{% templatetag closevariable %}
+
+            {% templatetag openvariable %}if fields.need_help{% templatetag closevariable %}
+            <img class="help-icon" src="{{ STATIC_URL }}img/icons/help.png" title="Help"/>
+            {% templatetag openvariable %}/if{% templatetag closevariable %}
+
+            {% templatetag openvariable %}if fields.image{% templatetag closevariable %}
+            <img src="${fields.image}"/>
+            {% templatetag openvariable %}else{% templatetag closevariable %}
+            <img src="{{ STATIC_URL }}img/no_goal_image.png"/>
+            {% templatetag openvariable %}/if{% templatetag closevariable %}
+
+        {% templatetag openvariable %}/if{% templatetag closevariable %}
+
+	</div>
+	<div class="title"><h3>${fields.title}</h3></div>
+
+	<div class="description">
+		<p>${fields.description}</p>
+	</div>
+    {% templatetag openvariable %}if fields.tags{% templatetag closevariable %}
+	<div class="tags">
+		<ul>
+            {% templatetag openvariable %}each fields.tags{% templatetag closevariable %}
+			<li><a href="/tags/search/${$value}">${$value}</a></li>
+            {% templatetag openvariable %}/each{% templatetag closevariable %}
+		</ul>
+	</div>
+    {% templatetag openvariable %}/if{% templatetag closevariable %}
+
+	<div class="subscription">
+		<div class="author">
+			<a href="/users/profile/${fields.user.pk}/">~ ${fields.user.first_name} ${fields.user.last_name}</a>
+		</div>
+		<div class="created">${fields.created}</div>
+	</div>
+
+	<div class="comments">
+		<div class="add-comment-form">
+		</div>
+	</div>
+</div>
+{% templatetag openvariable %}else type == 'status'{% templatetag closevariable %}
+<div id="status${pk}" class="goal-card status" data-pk="${pk}">
+	<div class="created"><span>${fields.created}</span></div>
+	<div class="author"><span>${fields.user.first_name} ${fields.user.last_name}</span></div>
+    {% templatetag openvariable %}if fields.editable{% templatetag closevariable %}
+	<div class="delete">
+		<a href="#">
+			<img src="{{ STATIC_URL }}img/icons/delete_status.png"/>
+		</a>
+	</div>
+    {% templatetag openvariable %}else{% templatetag closevariable %}
+	<div class="reply">
+		<a href="#">
+			<img src="{{ STATIC_URL }}img/icons/reply_status.png"/>
+		</a>
+	</div>
+    {% templatetag openvariable %}/if{% templatetag closevariable %}
+
+	<p>${fields.content}</p>
+    {% templatetag openvariable %}if fields.tags{% templatetag closevariable %}
+	<div class="tags">
+		<ul>
+            {% templatetag openvariable %}each fields.tags{% templatetag closevariable %}
+			<li><a href="/tags/search/${$value}">${$value}</a></li>
+            {% templatetag openvariable %}/each{% templatetag closevariable %}
+		</ul>
+	</div>
+    {% templatetag openvariable %}/if{% templatetag closevariable %}
+</div>
+{% templatetag openvariable %}/if{% templatetag closevariable %}

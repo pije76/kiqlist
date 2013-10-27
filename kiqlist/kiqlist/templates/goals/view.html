@@ -1,0 +1,56 @@
+{% load thumbnail %}
+{% load humanize %}
+
+<div class="left-column">
+	<div class="images">
+		<div class="prev">
+			<a href="#"><img src="{{ STATIC_URL }}img/icons/prev.png"/></a>
+		</div>
+		{% for image in goal.goalimage_set.all %}
+			<div class="image">
+				{% thumbnail image.image "400" crop="center" as im %}
+					<img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+				{% endthumbnail %}
+			</div>
+		{% endfor %}
+		<div class="next">
+			<a href="#"><img src="{{ STATIC_URL }}img/icons/next.png"/></a>
+		</div>
+	</div>
+</div>
+
+<div class="right-column">
+	<div class="info">
+		<div class="title"><h3>{{ goal.title }}</h3></div>
+		<div class="subscription">by <a href="/users/profile/{{ goal.user.pk }}/" class="author">{{ goal.user.first_name }} {{ goal.user.last_name }}</a><span class="created">{{ goal.created|naturaltime }}</span></div>
+		<div class="description">
+			<p>{{ goal.description }}</p>
+		</div>
+		<div class="goal-links">
+			<div class="report"><span data-url="{% url goal_report goal.id %}">Report this goal</span></div>
+			<g:plus action="share" href="/#goal/{{goal.id}}/view"></g:plus>
+		</div>
+	</div>
+	<div class="comments">
+		{% for goalcomment in goal.goalcomment_set.all %}
+			<div class="comment">
+				<div class="author">
+					<a href="/users/profile/{{ goalcomment.user.pk }}/">{{ goalcomment.user.first_name }} {{ goalcomment.user.last_name }}</a>
+				</div>
+				{% if goalcomment.user.photo %}
+					<div class="userpic">
+						<img src="{{ goalcomment.user.photo }}"/>
+					</div>
+				{% endif %}
+				<p>{{ goalcomment.content }}</p>
+				<div class="created">
+					{{ goalcomment.created }}
+				</div>
+			</div>
+		{% endfor %}
+
+		{% if not user.is_anonymous %}
+			<div class="add-comment-form"></div>
+		{% endif %}
+	</div>
+</div>

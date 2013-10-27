@@ -1,0 +1,7 @@
+{% load url from future %}
+
+<form method="post" action="{% url 'hash_tags.views.tag_form' %}">
+	{% csrf_token %}
+
+	<input type="text" name="tag" {% if form.tag.errors %}class="error"{% endif %} {% if form.tag.value %}value="{{ form.tag.value }}"{% endif %} placeholder="Search tags"/>
+</form>

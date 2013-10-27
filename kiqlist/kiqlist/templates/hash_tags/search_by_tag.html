@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{ STATIC_URL }}js/statuses.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/goal-comments.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/goal-counters.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/done-goals.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/content.js"></script>
+<script type="text/javascript">
+$(function () {
+	loadContent("tags/json/search/{{ tag }}", $(".content.search-result"), {
+		userPk: {{ user.pk }}
+	});
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="content search-result">
+
+</div>
+{% endblock %}

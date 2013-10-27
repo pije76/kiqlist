@@ -1,0 +1,19 @@
+<h3>What's happening</h3>
+
+<ul>
+	{% templatetag openvariable %}each activity{% templatetag closevariable %}
+		{% templatetag openvariable %}if $value.type == 'follow'{% templatetag closevariable %}
+
+	        <li>${$value.data.user.fields.first_name} ${$value.data.user.fields.last_name} followed <a class="subject" href="/users/profile/${$value.data.target.pk}/"><strong>${$value.data.target.fields.first_name} ${$value.data.target.fields.last_name}</strong></a></li>
+
+	    {% templatetag openvariable %}else $value.type == 'added'{% templatetag closevariable %}
+
+			<li>${$value.data.user.fields.first_name} ${$value.data.user.fields.last_name} added a new goal to <a class="lifelist-link" href="/users/profile/${$value.data.user.pk}/"><strong>LifeList</strong></a>.</li>
+
+	    {% templatetag openvariable %}else $value.type == 'done'{% templatetag closevariable %}
+
+	        <li>${$value.data.user.fields.first_name} ${$value.data.user.fields.last_name} completed a goal from <a class="lifelist-link" href="/users/profile/${$value.data.user.pk}/"><strong>LifeList</strong></a>.</li>
+
+		{% templatetag openvariable %}/if{% templatetag closevariable %}
+	{% templatetag openvariable %}/each{% templatetag closevariable %}
+</ul>
