@@ -14,6 +14,8 @@ ADMINS = (
 	("Jerome Leclanche", "jerome.leclanche+kiqlist@gmail.com"),
 )
 
+ALLOWED_HOSTS = ['*']
+
 MANAGERS = ADMINS
 
 # Local time zone for this installation. Choices can be found here:
