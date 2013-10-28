@@ -1,0 +1,21 @@
+{% load i18n %}
+<div id="article-content" class="article">
+	<span class="author">By <a href="{% url articles_by_author article.author.username %}" title="{% trans 'Read other articles by this author' %}">{{ article.author.get_name }}</a></span>
+	<h2 class="title">{% trans article.title %}</h2>
+
+
+	{{ article.rendered_content|safe }}
+</div>
+
+{% for att in article.attachments.all %}
+{% if forloop.first %}<div id="article-attachments">
+	<h3>Attachments</h3>
+	<ul>{% endif %}
+		<li id="attachment-{{ forloop.counter }}" class="attachment ct_{{ att.content_type_class }}">
+			<a href="{{ att.attachment.url }}" class="attachment-link">{{ att.filename }}</a>
+			<span class="attachment-size">Size: {{ att.attachment.size|filesizeformat }}</span>
+		</li>
+	{% if forloop.last %}</ul>
+</div>{% endif %}
+{% endfor %}
+

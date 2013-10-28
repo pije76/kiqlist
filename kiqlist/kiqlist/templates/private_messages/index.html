@@ -1,0 +1,22 @@
+{% load url from future %}
+{% load humanize %}
+
+<div class="start-conversation-form"></div>
+
+<div class="last-conversations">
+	<h3>Last conversations</h3>
+
+	{% if last_conversations %}
+		<ul>
+			{% for conversation in last_conversations %}
+				<li>
+					<div class="user"><a href="{% url 'kiqlist.private_messages.views.conversation' conversation.1.pk %}">{{ conversation.1.first_name }} {{ conversation.1.last_name }}</a></div>
+					<p>{{ conversation.0.content }}</p>
+					<div class="created">{{ conversation.0.created|naturaltime }}</div>
+				</li>
+			{% endfor %}
+		</ul>
+	{% else %}
+		<p class="no-conversations">You haven't conversations yet.</p>
+	{% endif %}
+</div>

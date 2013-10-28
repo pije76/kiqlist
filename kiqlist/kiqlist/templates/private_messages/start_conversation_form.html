@@ -1,0 +1,9 @@
+{% load url from future %}
+
+<form method="post" action="{% url 'private_messages.views.start_conversation' %}">
+	{% csrf_token %}
+
+	<input type="text" name="username" placeholder="username" value="{% if form.username.value %}{{ form.username.value }}{% endif %}"/>
+	<input type="submit" value="Start to talk"/>
+	{{ form.username.errors }}
+</form>

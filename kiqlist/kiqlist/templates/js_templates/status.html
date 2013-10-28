@@ -1,0 +1,22 @@
+<div class="goal-card status" data-pk="${pk}">
+	<div class="created"><span>${created}</span></div>
+	<div class="author"><span>${user.first_name} ${user.last_name}</span></div>
+	{% templatetag openvariable %}if editable{% templatetag closevariable %}
+		<div class="delete">
+			<a href="#">
+				<img src="{{ STATIC_URL }}img/icons/delete_status.png"/>
+			</a>
+		</div>
+	{% templatetag openvariable %}/if{% templatetag closevariable %}
+
+	<p>${content}</p>
+    {% templatetag openvariable %}if tags{% templatetag closevariable %}
+        <div class="tags">
+            <ul>
+                {% templatetag openvariable %}each tags{% templatetag closevariable %}
+                <li><a href="/tags/search/${$value}">${$value}</a></li>
+                {% templatetag openvariable %}/each{% templatetag closevariable %}
+            </ul>
+        </div>
+    {% templatetag openvariable %}/if{% templatetag closevariable %}
+</div>

@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% load url from future %}
+{% load thumbnail %}
+{% load humanize %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{{ STATIC_URL }}js/statuses.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/goal-counters.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lifelist.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/done-goals.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/follow.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/content.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            window.LIFELIST = new LifeList({
+                container: $("#lifelist"),
+			    content: $('.content'),
+                formsContainers: {
+                    add: $(".lifelist-add-goal-form"),
+                    edit: $(".lifelist-edit-goal-form"),
+                    done: $(".lifelist-done-goal-form")
+                },
+                urls: {
+                    getList: "/goals/lifelist/{{ profile.user.pk }}/",
+                    add: "/goals/add/",
+                    edit: "/goals/edit/:goal_pk/",
+                    delete: "/goals/delete/:goal_pk/",
+                    done: "/goals/done/:goal_pk/"
+                },
+                goalTemplateURL: "/js_templates/lifelist_goal.html",
+                editable: {% if profile.user == user %}true{% else %}false{% endif %}
+            });
+
+            loadContent("/content/done/" + {{ profile.user.pk }} + "/", $(".content.profile"), {
+				userPk: {{ profile.user.pk }},
+				after: $('.profile-holder')
+			});
+
+			$("#add-status-btn").click(function () {
+				$.post("/statuses/add/", $('.add-status-form form').serialize(), function (response) {
+					var newStatus = response.data;
+					var container = $(".content.profile");
+                    addStatus(newStatus, window.STATUS_OPTS);
+                })
+			});
+
+			{% if show_follow_link %}
+				{% if show_unfollow_link %}
+				$('#follow a').click(unfollowUserCallback);
+                {% else %}
+                $('#follow a').click(followUserCallback);
+                {% endif %}
+			{% endif %}
+        });
+    </script>
+{% endblock %}
+
+
+{% block content %}
+    <div class="lifelist-add-goal-form add-goal-form hidden"></div>
+    <div class="lifelist-edit-goal-form edit-goal-form hidden"></div>
+    <div class="lifelist-done-goal-form done-goal-form hidden"></div>
+
+    <div class="relist-goal-form edit-goal-form hidden"></div>
+
+    <div class="reply-status-form add-status-form hidden"></div>
+
+    <div class="content profile">
+        <div class="profile-holder">
+            <div class="profile-card">
+                {% thumbnail profile.photo "160x200" crop="center" as im %}
+                    <div id="photo">
+                        <img src="{{ im.url }}"/>
+                    </div>
+                {% empty %}
+                    <div id="photo">
+                        <img src="{{ STATIC_URL }}img/no_photo.png"/>
+                    </div>
+                {% endthumbnail %}
+                <div class="info">
+                    <div class="name"><strong>{{ profile.user.first_name }} {{ profile.user.last_name }}</strong></div>
+                    <div class="about">"{{ profile.about }}"</div>
+                    <div class="location"><strong>{{ profile.location }}</strong></div>
+
+				    {% if show_follow_link %}
+				    <div id="follow">
+						<a data-user-id="{{ profile.user_id }}">
+                            {% if show_unfollow_link %}
+                            Unfollow
+                            {% else %}
+                            Follow
+                            {% endif %}
+						</a>
+				    </div>
+				    {% endif %}
+
+                    <div class="additional-info clearfix">
+                        <div class="user-counters">
+                            <div class="goals-counter">{{ profile.user.goal_set.count }} Goal{% if profile.user.goal_set.count > 1 %}s{% endif %}</div>
+                            <div class="followers-counter">{{ profile.get_followers_count }} Follower{% if profile.get_followers_count > 1 %}s{% endif %}</div>
+                        </div>
+                    </div>
+                </div>
+				<div class="add-status-form">
+                    <form method="post" action="/statuses/add/">
+
+
+                            {% csrf_token %}
+                            <textarea name="content" class="no-resize"></textarea>
+						    <input id="status-tags" type="text" name="status-tags" placeholder="#adventure, #charity, ..."/>
+                            <div class="submit">
+                                <input type="button" value="Share" id="add-status-btn">
+                            </div>
+                    </form>
+			    </div>
+            </div>
+            <div class="uncollapse">.</div>
+            <div class="goals-list" id="lifelist">
+            </div>
+        </div>
+
+        {% if profile.user.goal_set.count == 0 and user == profile.user %}
+            <div class="goal-card">
+                <p class="no-goals">No goals. Try to create new goal.</p>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

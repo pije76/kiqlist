@@ -1,0 +1,1086 @@
+2013-03-24 12:41:31 [17499] [INFO] Starting gunicorn 0.17.2
+2013-03-24 12:41:31 [17499] [INFO] Listening at: http://127.0.0.1:8000 (17499)
+2013-03-24 12:41:31 [17499] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 12:41:31 [17504] [INFO] Booting worker with pid: 17504
+2013-03-24 12:41:31 [17505] [INFO] Booting worker with pid: 17505
+2013-03-24 12:41:31 [17506] [INFO] Booting worker with pid: 17506
+2013-03-24 12:41:31 [17507] [INFO] Booting worker with pid: 17507
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 12:57:07 [17673] [INFO] Starting gunicorn 0.17.2
+2013-03-24 12:57:07 [17673] [INFO] Listening at: http://127.0.0.1:8000 (17673)
+2013-03-24 12:57:07 [17673] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 12:57:07 [17678] [INFO] Booting worker with pid: 17678
+2013-03-24 12:57:07 [17679] [INFO] Booting worker with pid: 17679
+2013-03-24 12:57:07 [17680] [INFO] Booting worker with pid: 17680
+2013-03-24 12:57:07 [17681] [INFO] Booting worker with pid: 17681
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 14:57:11 [19547] [INFO] Starting gunicorn 0.17.2
+2013-03-24 14:57:11 [19547] [INFO] Listening at: http://127.0.0.1:8000 (19547)
+2013-03-24 14:57:11 [19547] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 14:57:11 [19552] [INFO] Booting worker with pid: 19552
+2013-03-24 14:57:11 [19553] [INFO] Booting worker with pid: 19553
+2013-03-24 14:57:11 [19554] [INFO] Booting worker with pid: 19554
+2013-03-24 14:57:11 [19555] [INFO] Booting worker with pid: 19555
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 15:45:09 [20688] [INFO] Starting gunicorn 0.17.2
+2013-03-24 15:45:09 [20688] [INFO] Listening at: http://127.0.0.1:8000 (20688)
+2013-03-24 15:45:09 [20688] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 15:45:09 [20693] [INFO] Booting worker with pid: 20693
+2013-03-24 15:45:09 [20694] [INFO] Booting worker with pid: 20694
+2013-03-24 15:45:09 [20695] [INFO] Booting worker with pid: 20695
+2013-03-24 15:45:09 [20696] [INFO] Booting worker with pid: 20696
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 15:47:01 [20827] [INFO] Starting gunicorn 0.17.2
+2013-03-24 15:47:01 [20827] [INFO] Listening at: http://127.0.0.1:8000 (20827)
+2013-03-24 15:47:01 [20827] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 15:47:01 [20832] [INFO] Booting worker with pid: 20832
+2013-03-24 15:47:01 [20833] [INFO] Booting worker with pid: 20833
+2013-03-24 15:47:01 [20834] [INFO] Booting worker with pid: 20834
+2013-03-24 15:47:01 [20835] [INFO] Booting worker with pid: 20835
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 15:48:14 [20972] [INFO] Starting gunicorn 0.17.2
+2013-03-24 15:48:14 [20972] [INFO] Listening at: http://127.0.0.1:8000 (20972)
+2013-03-24 15:48:14 [20972] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 15:48:14 [20977] [INFO] Booting worker with pid: 20977
+2013-03-24 15:48:14 [20978] [INFO] Booting worker with pid: 20978
+2013-03-24 15:48:14 [20979] [INFO] Booting worker with pid: 20979
+2013-03-24 15:48:14 [20980] [INFO] Booting worker with pid: 20980
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 15:48:29 [21077] [INFO] Starting gunicorn 0.17.2
+2013-03-24 15:48:29 [21077] [INFO] Listening at: http://127.0.0.1:8000 (21077)
+2013-03-24 15:48:29 [21077] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 15:48:29 [21082] [INFO] Booting worker with pid: 21082
+2013-03-24 15:48:29 [21083] [INFO] Booting worker with pid: 21083
+2013-03-24 15:48:29 [21084] [INFO] Booting worker with pid: 21084
+2013-03-24 15:48:29 [21085] [INFO] Booting worker with pid: 21085
+2013-03-24 15:48:50 [21192] [INFO] Starting gunicorn 0.17.2
+2013-03-24 15:48:50 [21192] [INFO] Listening at: http://127.0.0.1:8000 (21192)
+2013-03-24 15:48:50 [21192] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 15:48:50 [21197] [INFO] Booting worker with pid: 21197
+2013-03-24 15:48:50 [21198] [INFO] Booting worker with pid: 21198
+2013-03-24 15:48:50 [21199] [INFO] Booting worker with pid: 21199
+2013-03-24 15:48:50 [21200] [INFO] Booting worker with pid: 21200
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 15:58:16 [21355] [INFO] Starting gunicorn 0.17.2
+2013-03-24 15:58:16 [21355] [INFO] Listening at: http://127.0.0.1:8000 (21355)
+2013-03-24 15:58:16 [21355] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 15:58:16 [21360] [INFO] Booting worker with pid: 21360
+2013-03-24 15:58:16 [21361] [INFO] Booting worker with pid: 21361
+2013-03-24 15:58:16 [21362] [INFO] Booting worker with pid: 21362
+2013-03-24 15:58:16 [21363] [INFO] Booting worker with pid: 21363
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 15:59:22 [21503] [INFO] Starting gunicorn 0.17.2
+2013-03-24 15:59:22 [21503] [INFO] Listening at: http://127.0.0.1:8000 (21503)
+2013-03-24 15:59:22 [21503] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 15:59:22 [21508] [INFO] Booting worker with pid: 21508
+2013-03-24 15:59:22 [21509] [INFO] Booting worker with pid: 21509
+2013-03-24 15:59:22 [21510] [INFO] Booting worker with pid: 21510
+2013-03-24 15:59:22 [21511] [INFO] Booting worker with pid: 21511
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-24 16:01:41 [21652] [INFO] Starting gunicorn 0.17.2
+2013-03-24 16:01:41 [21652] [INFO] Listening at: http://127.0.0.1:8000 (21652)
+2013-03-24 16:01:41 [21652] [INFO] Using worker: egg:gunicorn#sync
+2013-03-24 16:01:41 [21657] [INFO] Booting worker with pid: 21657
+2013-03-24 16:01:41 [21658] [INFO] Booting worker with pid: 21658
+2013-03-24 16:01:41 [21659] [INFO] Booting worker with pid: 21659
+2013-03-24 16:01:41 [21660] [INFO] Booting worker with pid: 21660
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-24 20:17:32.621357) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-24 20:17:32.675793) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-25 22:31:00.821771) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-25 22:31:00.856274) while time zone support is active.
+  RuntimeWarning)
+2013-03-26 08:30:40 [11276] [INFO] Starting gunicorn 0.17.2
+2013-03-26 08:30:40 [11276] [INFO] Listening at: http://127.0.0.1:8000 (11276)
+2013-03-26 08:30:40 [11276] [INFO] Using worker: egg:gunicorn#sync
+2013-03-26 08:30:40 [11281] [INFO] Booting worker with pid: 11281
+2013-03-26 08:30:40 [11282] [INFO] Booting worker with pid: 11282
+2013-03-26 08:30:40 [11283] [INFO] Booting worker with pid: 11283
+2013-03-26 08:30:40 [11284] [INFO] Booting worker with pid: 11284
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-26 09:02:34 [12657] [INFO] Starting gunicorn 0.17.2
+2013-03-26 09:02:34 [12657] [INFO] Listening at: http://127.0.0.1:8000 (12657)
+2013-03-26 09:02:34 [12657] [INFO] Using worker: egg:gunicorn#sync
+2013-03-26 09:02:34 [12662] [INFO] Booting worker with pid: 12662
+2013-03-26 09:02:34 [12663] [INFO] Booting worker with pid: 12663
+2013-03-26 09:02:34 [12664] [INFO] Booting worker with pid: 12664
+2013-03-26 09:02:34 [12665] [INFO] Booting worker with pid: 12665
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-26 09:18:52 [13069] [INFO] Starting gunicorn 0.17.2
+2013-03-26 09:18:52 [13069] [INFO] Listening at: http://127.0.0.1:8000 (13069)
+2013-03-26 09:18:52 [13069] [INFO] Using worker: egg:gunicorn#sync
+2013-03-26 09:18:52 [13074] [INFO] Booting worker with pid: 13074
+2013-03-26 09:18:52 [13075] [INFO] Booting worker with pid: 13075
+2013-03-26 09:18:52 [13076] [INFO] Booting worker with pid: 13076
+2013-03-26 09:18:52 [13077] [INFO] Booting worker with pid: 13077
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-26 09:20:20 [13313] [INFO] Starting gunicorn 0.17.2
+2013-03-26 09:20:20 [13313] [INFO] Listening at: http://127.0.0.1:8000 (13313)
+2013-03-26 09:20:20 [13313] [INFO] Using worker: egg:gunicorn#sync
+2013-03-26 09:20:20 [13318] [INFO] Booting worker with pid: 13318
+2013-03-26 09:20:20 [13319] [INFO] Booting worker with pid: 13319
+2013-03-26 09:20:20 [13320] [INFO] Booting worker with pid: 13320
+2013-03-26 09:20:20 [13321] [INFO] Booting worker with pid: 13321
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-03-26 09:21:07 [13488] [INFO] Starting gunicorn 0.17.2
+2013-03-26 09:21:07 [13488] [INFO] Listening at: http://127.0.0.1:8000 (13488)
+2013-03-26 09:21:07 [13488] [INFO] Using worker: egg:gunicorn#sync
+2013-03-26 09:21:07 [13493] [INFO] Booting worker with pid: 13493
+2013-03-26 09:21:07 [13494] [INFO] Booting worker with pid: 13494
+2013-03-26 09:21:07 [13495] [INFO] Booting worker with pid: 13495
+2013-03-26 09:21:07 [13496] [INFO] Booting worker with pid: 13496
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-26 13:25:09.830069) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-26 13:25:09.866141) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-28 11:44:11.175396) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-28 11:44:11.208494) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-28 16:00:25.759031) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-28 16:00:25.813213) while time zone support is active.
+  RuntimeWarning)
+2013-03-28 12:23:11 [6089] [INFO] Starting gunicorn 0.17.2
+2013-03-28 12:23:11 [6089] [INFO] Listening at: http://127.0.0.1:8000 (6089)
+2013-03-28 12:23:11 [6089] [INFO] Using worker: egg:gunicorn#sync
+2013-03-28 12:23:11 [6094] [INFO] Booting worker with pid: 6094
+2013-03-28 12:23:11 [6095] [INFO] Booting worker with pid: 6095
+2013-03-28 12:23:11 [6096] [INFO] Booting worker with pid: 6096
+2013-03-28 12:23:11 [6097] [INFO] Booting worker with pid: 6097
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-29 10:14:29.361202) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-03-29 10:14:29.397787) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-02 12:54:26.602240) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-02 12:54:26.638674) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-04-05 09:04:12 [21411] [INFO] Starting gunicorn 0.17.2
+2013-04-05 09:04:12 [21411] [INFO] Listening at: http://127.0.0.1:8000 (21411)
+2013-04-05 09:04:12 [21411] [INFO] Using worker: egg:gunicorn#sync
+2013-04-05 09:04:12 [21416] [INFO] Booting worker with pid: 21416
+2013-04-05 09:04:12 [21417] [INFO] Booting worker with pid: 21417
+2013-04-05 09:04:12 [21418] [INFO] Booting worker with pid: 21418
+2013-04-05 09:04:12 [21419] [INFO] Booting worker with pid: 21419
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-07 22:09:25.515892) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-07 22:09:25.626552) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-08 18:25:40.943872) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-08 18:25:40.980071) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-04-15 17:34:25 [16405] [INFO] Starting gunicorn 0.17.2
+2013-04-15 17:34:25 [16405] [INFO] Listening at: http://127.0.0.1:8000 (16405)
+2013-04-15 17:34:25 [16405] [INFO] Using worker: egg:gunicorn#sync
+2013-04-15 17:34:25 [16410] [INFO] Booting worker with pid: 16410
+2013-04-15 17:34:25 [16411] [INFO] Booting worker with pid: 16411
+2013-04-15 17:34:25 [16412] [INFO] Booting worker with pid: 16412
+2013-04-15 17:34:25 [16413] [INFO] Booting worker with pid: 16413
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-04-15 17:37:22 [16562] [INFO] Starting gunicorn 0.17.2
+2013-04-15 17:37:22 [16562] [INFO] Listening at: http://127.0.0.1:8000 (16562)
+2013-04-15 17:37:22 [16562] [INFO] Using worker: egg:gunicorn#sync
+2013-04-15 17:37:22 [16567] [INFO] Booting worker with pid: 16567
+2013-04-15 17:37:22 [16568] [INFO] Booting worker with pid: 16568
+2013-04-15 17:37:22 [16569] [INFO] Booting worker with pid: 16569
+2013-04-15 17:37:22 [16570] [INFO] Booting worker with pid: 16570
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-15 22:49:01.341398) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-15 22:49:01.387604) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-16 15:22:16.609142) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-16 15:22:16.646151) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-19 12:35:28.306358) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-19 12:35:28.342835) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-22 14:25:41.947386) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-22 14:25:41.987838) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-29 12:49:35.737908) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-04-29 12:49:35.779506) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-13 14:13:04.196087) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-13 14:13:04.243469) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-20 21:35:48.417859) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-20 21:35:48.451755) while time zone support is active.
+  RuntimeWarning)
+2013-05-22 05:34:18 [12954] [INFO] Starting gunicorn 0.17.2
+2013-05-22 05:34:18 [12954] [INFO] Listening at: http://127.0.0.1:8000 (12954)
+2013-05-22 05:34:18 [12954] [INFO] Using worker: egg:gunicorn#sync
+2013-05-22 05:34:18 [12959] [INFO] Booting worker with pid: 12959
+2013-05-22 05:34:18 [12960] [INFO] Booting worker with pid: 12960
+2013-05-22 05:34:18 [12961] [INFO] Booting worker with pid: 12961
+2013-05-22 05:34:18 [12962] [INFO] Booting worker with pid: 12962
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-22 06:08:41 [13659] [INFO] Starting gunicorn 0.17.2
+2013-05-22 06:08:41 [13659] [INFO] Listening at: http://127.0.0.1:8000 (13659)
+2013-05-22 06:08:41 [13659] [INFO] Using worker: egg:gunicorn#sync
+2013-05-22 06:08:41 [13664] [INFO] Booting worker with pid: 13664
+2013-05-22 06:08:41 [13665] [INFO] Booting worker with pid: 13665
+2013-05-22 06:08:41 [13666] [INFO] Booting worker with pid: 13666
+2013-05-22 06:08:41 [13667] [INFO] Booting worker with pid: 13667
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-22 13:23:08.514093) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-22 13:23:08.552839) while time zone support is active.
+  RuntimeWarning)
+2013-05-23 22:10:44 [1194] [INFO] Starting gunicorn 0.17.2
+2013-05-23 22:10:44 [1194] [INFO] Listening at: http://127.0.0.1:8000 (1194)
+2013-05-23 22:10:44 [1194] [INFO] Using worker: egg:gunicorn#sync
+2013-05-23 22:10:44 [1199] [INFO] Booting worker with pid: 1199
+2013-05-23 22:10:44 [1200] [INFO] Booting worker with pid: 1200
+2013-05-23 22:10:44 [1201] [INFO] Booting worker with pid: 1201
+2013-05-23 22:10:44 [1202] [INFO] Booting worker with pid: 1202
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-23 23:18:23 [2269] [INFO] Starting gunicorn 0.17.2
+2013-05-23 23:18:23 [2269] [INFO] Listening at: http://127.0.0.1:8000 (2269)
+2013-05-23 23:18:23 [2269] [INFO] Using worker: egg:gunicorn#sync
+2013-05-23 23:18:23 [2274] [INFO] Booting worker with pid: 2274
+2013-05-23 23:18:23 [2275] [INFO] Booting worker with pid: 2275
+2013-05-23 23:18:23 [2276] [INFO] Booting worker with pid: 2276
+2013-05-23 23:18:23 [2277] [INFO] Booting worker with pid: 2277
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-23 23:25:48 [2531] [INFO] Starting gunicorn 0.17.2
+2013-05-23 23:25:48 [2531] [INFO] Listening at: http://127.0.0.1:8000 (2531)
+2013-05-23 23:25:48 [2531] [INFO] Using worker: egg:gunicorn#sync
+2013-05-23 23:25:48 [2536] [INFO] Booting worker with pid: 2536
+2013-05-23 23:25:48 [2537] [INFO] Booting worker with pid: 2537
+2013-05-23 23:25:48 [2538] [INFO] Booting worker with pid: 2538
+2013-05-23 23:25:48 [2539] [INFO] Booting worker with pid: 2539
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-24 14:26:49.799159) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-24 14:26:49.836860) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-24 19:45:48.020385) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-24 19:45:48.060247) while time zone support is active.
+  RuntimeWarning)
+2013-05-24 21:41:39 [8947] [INFO] Starting gunicorn 0.17.2
+2013-05-24 21:41:39 [8947] [INFO] Listening at: http://127.0.0.1:8000 (8947)
+2013-05-24 21:41:39 [8947] [INFO] Using worker: egg:gunicorn#sync
+2013-05-24 21:41:39 [8952] [INFO] Booting worker with pid: 8952
+2013-05-24 21:41:39 [8953] [INFO] Booting worker with pid: 8953
+2013-05-24 21:41:39 [8954] [INFO] Booting worker with pid: 8954
+2013-05-24 21:41:39 [8955] [INFO] Booting worker with pid: 8955
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-24 21:54:07 [9380] [INFO] Starting gunicorn 0.17.2
+2013-05-24 21:54:07 [9380] [INFO] Listening at: http://127.0.0.1:8000 (9380)
+2013-05-24 21:54:07 [9380] [INFO] Using worker: egg:gunicorn#sync
+2013-05-24 21:54:07 [9385] [INFO] Booting worker with pid: 9385
+2013-05-24 21:54:07 [9386] [INFO] Booting worker with pid: 9386
+2013-05-24 21:54:07 [9387] [INFO] Booting worker with pid: 9387
+2013-05-24 21:54:07 [9388] [INFO] Booting worker with pid: 9388
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-05-25 11:13:32 [13304] [INFO] Starting gunicorn 0.17.2
+2013-05-25 11:13:32 [13304] [INFO] Listening at: http://127.0.0.1:8000 (13304)
+2013-05-25 11:13:32 [13304] [INFO] Using worker: egg:gunicorn#sync
+2013-05-25 11:13:32 [13310] [INFO] Booting worker with pid: 13310
+2013-05-25 11:13:32 [13311] [INFO] Booting worker with pid: 13311
+2013-05-25 11:13:32 [13312] [INFO] Booting worker with pid: 13312
+2013-05-25 11:13:32 [13313] [INFO] Booting worker with pid: 13313
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-25 14:54:02 [17469] [INFO] Starting gunicorn 0.17.2
+2013-05-25 14:54:02 [17469] [INFO] Listening at: http://127.0.0.1:8000 (17469)
+2013-05-25 14:54:02 [17469] [INFO] Using worker: egg:gunicorn#sync
+2013-05-25 14:54:02 [17474] [INFO] Booting worker with pid: 17474
+2013-05-25 14:54:02 [17475] [INFO] Booting worker with pid: 17475
+2013-05-25 14:54:02 [17476] [INFO] Booting worker with pid: 17476
+2013-05-25 14:54:02 [17477] [INFO] Booting worker with pid: 17477
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-25 19:22:31 [21687] [INFO] Starting gunicorn 0.17.2
+2013-05-25 19:22:31 [21687] [INFO] Listening at: http://127.0.0.1:8000 (21687)
+2013-05-25 19:22:31 [21687] [INFO] Using worker: egg:gunicorn#sync
+2013-05-25 19:22:31 [21692] [INFO] Booting worker with pid: 21692
+2013-05-25 19:22:31 [21693] [INFO] Booting worker with pid: 21693
+2013-05-25 19:22:31 [21694] [INFO] Booting worker with pid: 21694
+2013-05-25 19:22:31 [21695] [INFO] Booting worker with pid: 21695
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-05-26 21:33:26 [2846] [INFO] Starting gunicorn 0.17.2
+2013-05-26 21:33:26 [2846] [INFO] Listening at: http://127.0.0.1:8000 (2846)
+2013-05-26 21:33:26 [2846] [INFO] Using worker: egg:gunicorn#sync
+2013-05-26 21:33:26 [2851] [INFO] Booting worker with pid: 2851
+2013-05-26 21:33:26 [2852] [INFO] Booting worker with pid: 2852
+2013-05-26 21:33:26 [2853] [INFO] Booting worker with pid: 2853
+2013-05-26 21:33:26 [2854] [INFO] Booting worker with pid: 2854
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-26 21:40:24 [3130] [INFO] Starting gunicorn 0.17.2
+2013-05-26 21:40:24 [3130] [INFO] Listening at: http://127.0.0.1:8000 (3130)
+2013-05-26 21:40:24 [3130] [INFO] Using worker: egg:gunicorn#sync
+2013-05-26 21:40:24 [3135] [INFO] Booting worker with pid: 3135
+2013-05-26 21:40:24 [3136] [INFO] Booting worker with pid: 3136
+2013-05-26 21:40:24 [3137] [INFO] Booting worker with pid: 3137
+2013-05-26 21:40:24 [3138] [INFO] Booting worker with pid: 3138
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-26 22:26:12 [3450] [INFO] Starting gunicorn 0.17.2
+2013-05-26 22:26:12 [3450] [INFO] Listening at: http://127.0.0.1:8000 (3450)
+2013-05-26 22:26:12 [3450] [INFO] Using worker: egg:gunicorn#sync
+2013-05-26 22:26:12 [3455] [INFO] Booting worker with pid: 3455
+2013-05-26 22:26:12 [3456] [INFO] Booting worker with pid: 3456
+2013-05-26 22:26:12 [3457] [INFO] Booting worker with pid: 3457
+2013-05-26 22:26:12 [3458] [INFO] Booting worker with pid: 3458
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-28 16:47:00.636338) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-05-28 16:47:00.693569) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-05-29 19:56:17 [19839] [INFO] Starting gunicorn 0.17.2
+2013-05-29 19:56:17 [19839] [INFO] Listening at: http://127.0.0.1:8000 (19839)
+2013-05-29 19:56:17 [19839] [INFO] Using worker: egg:gunicorn#sync
+2013-05-29 19:56:17 [19844] [INFO] Booting worker with pid: 19844
+2013-05-29 19:56:17 [19845] [INFO] Booting worker with pid: 19845
+2013-05-29 19:56:17 [19846] [INFO] Booting worker with pid: 19846
+2013-05-29 19:56:17 [19847] [INFO] Booting worker with pid: 19847
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-05-29 19:59:16 [19965] [INFO] Starting gunicorn 0.17.2
+2013-05-29 19:59:16 [19965] [INFO] Listening at: http://127.0.0.1:8000 (19965)
+2013-05-29 19:59:16 [19965] [INFO] Using worker: egg:gunicorn#sync
+2013-05-29 19:59:16 [19970] [INFO] Booting worker with pid: 19970
+2013-05-29 19:59:16 [19971] [INFO] Booting worker with pid: 19971
+2013-05-29 19:59:16 [19972] [INFO] Booting worker with pid: 19972
+2013-05-29 19:59:16 [19973] [INFO] Booting worker with pid: 19973
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-02 00:52:18 [9257] [INFO] Starting gunicorn 0.17.2
+2013-06-02 00:52:18 [9257] [INFO] Listening at: http://127.0.0.1:8000 (9257)
+2013-06-02 00:52:18 [9257] [INFO] Using worker: egg:gunicorn#sync
+2013-06-02 00:52:18 [9262] [INFO] Booting worker with pid: 9262
+2013-06-02 00:52:18 [9263] [INFO] Booting worker with pid: 9263
+2013-06-02 00:52:18 [9264] [INFO] Booting worker with pid: 9264
+2013-06-02 00:52:18 [9265] [INFO] Booting worker with pid: 9265
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-02 11:00:04 [14030] [INFO] Starting gunicorn 0.17.2
+2013-06-02 11:00:04 [14030] [INFO] Listening at: http://127.0.0.1:8000 (14030)
+2013-06-02 11:00:04 [14030] [INFO] Using worker: egg:gunicorn#sync
+2013-06-02 11:00:04 [14036] [INFO] Booting worker with pid: 14036
+2013-06-02 11:00:04 [14035] [INFO] Booting worker with pid: 14035
+2013-06-02 11:00:04 [14038] [INFO] Booting worker with pid: 14038
+2013-06-02 11:00:04 [14039] [INFO] Booting worker with pid: 14039
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-02 16:02:11 [18894] [INFO] Starting gunicorn 0.17.2
+2013-06-02 16:02:11 [18894] [INFO] Listening at: http://127.0.0.1:8000 (18894)
+2013-06-02 16:02:11 [18894] [INFO] Using worker: egg:gunicorn#sync
+2013-06-02 16:02:11 [18899] [INFO] Booting worker with pid: 18899
+2013-06-02 16:02:11 [18901] [INFO] Booting worker with pid: 18901
+2013-06-02 16:02:11 [18900] [INFO] Booting worker with pid: 18900
+2013-06-02 16:02:11 [18902] [INFO] Booting worker with pid: 18902
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-02 16:19:26 [19277] [INFO] Starting gunicorn 0.17.2
+2013-06-02 16:19:26 [19277] [INFO] Listening at: http://127.0.0.1:8000 (19277)
+2013-06-02 16:19:26 [19277] [INFO] Using worker: egg:gunicorn#sync
+2013-06-02 16:19:26 [19282] [INFO] Booting worker with pid: 19282
+2013-06-02 16:19:26 [19283] [INFO] Booting worker with pid: 19283
+2013-06-02 16:19:26 [19284] [INFO] Booting worker with pid: 19284
+2013-06-02 16:19:26 [19285] [INFO] Booting worker with pid: 19285
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-02 16:35:59 [19681] [INFO] Starting gunicorn 0.17.2
+2013-06-02 16:35:59 [19681] [INFO] Listening at: http://127.0.0.1:8000 (19681)
+2013-06-02 16:35:59 [19681] [INFO] Using worker: egg:gunicorn#sync
+2013-06-02 16:35:59 [19686] [INFO] Booting worker with pid: 19686
+2013-06-02 16:35:59 [19687] [INFO] Booting worker with pid: 19687
+2013-06-02 16:35:59 [19688] [INFO] Booting worker with pid: 19688
+2013-06-02 16:35:59 [19689] [INFO] Booting worker with pid: 19689
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-03 20:51:51 [27921] [INFO] Starting gunicorn 0.17.2
+2013-06-03 20:51:51 [27921] [INFO] Listening at: http://127.0.0.1:8000 (27921)
+2013-06-03 20:51:51 [27921] [INFO] Using worker: egg:gunicorn#sync
+2013-06-03 20:51:51 [27926] [INFO] Booting worker with pid: 27926
+2013-06-03 20:51:51 [27927] [INFO] Booting worker with pid: 27927
+2013-06-03 20:51:51 [27928] [INFO] Booting worker with pid: 27928
+2013-06-03 20:51:51 [27929] [INFO] Booting worker with pid: 27929
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-03 20:52:29 [28027] [INFO] Starting gunicorn 0.17.2
+2013-06-03 20:52:29 [28027] [INFO] Listening at: http://127.0.0.1:8000 (28027)
+2013-06-03 20:52:29 [28027] [INFO] Using worker: egg:gunicorn#sync
+2013-06-03 20:52:29 [28032] [INFO] Booting worker with pid: 28032
+2013-06-03 20:52:29 [28033] [INFO] Booting worker with pid: 28033
+2013-06-03 20:52:29 [28034] [INFO] Booting worker with pid: 28034
+2013-06-03 20:52:29 [28035] [INFO] Booting worker with pid: 28035
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-03 20:57:29 [28147] [INFO] Starting gunicorn 0.17.2
+2013-06-03 20:57:29 [28147] [INFO] Listening at: http://127.0.0.1:8000 (28147)
+2013-06-03 20:57:29 [28147] [INFO] Using worker: egg:gunicorn#sync
+2013-06-03 20:57:29 [28152] [INFO] Booting worker with pid: 28152
+2013-06-03 20:57:29 [28153] [INFO] Booting worker with pid: 28153
+2013-06-03 20:57:29 [28154] [INFO] Booting worker with pid: 28154
+2013-06-03 20:57:29 [28155] [INFO] Booting worker with pid: 28155
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-03 21:11:41 [28312] [INFO] Starting gunicorn 0.17.2
+2013-06-03 21:11:41 [28312] [INFO] Listening at: http://127.0.0.1:8000 (28312)
+2013-06-03 21:11:41 [28312] [INFO] Using worker: egg:gunicorn#sync
+2013-06-03 21:11:41 [28317] [INFO] Booting worker with pid: 28317
+2013-06-03 21:11:41 [28318] [INFO] Booting worker with pid: 28318
+2013-06-03 21:11:41 [28319] [INFO] Booting worker with pid: 28319
+2013-06-03 21:11:41 [28320] [INFO] Booting worker with pid: 28320
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-03 21:18:05 [28459] [INFO] Starting gunicorn 0.17.2
+2013-06-03 21:18:05 [28459] [INFO] Listening at: http://127.0.0.1:8000 (28459)
+2013-06-03 21:18:05 [28459] [INFO] Using worker: egg:gunicorn#sync
+2013-06-03 21:18:05 [28464] [INFO] Booting worker with pid: 28464
+2013-06-03 21:18:05 [28465] [INFO] Booting worker with pid: 28465
+2013-06-03 21:18:05 [28466] [INFO] Booting worker with pid: 28466
+2013-06-03 21:18:05 [28467] [INFO] Booting worker with pid: 28467
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-03 21:21:31 [28583] [INFO] Starting gunicorn 0.17.2
+2013-06-03 21:21:31 [28583] [INFO] Listening at: http://127.0.0.1:8000 (28583)
+2013-06-03 21:21:31 [28583] [INFO] Using worker: egg:gunicorn#sync
+2013-06-03 21:21:31 [28588] [INFO] Booting worker with pid: 28588
+2013-06-03 21:21:31 [28589] [INFO] Booting worker with pid: 28589
+2013-06-03 21:21:31 [28590] [INFO] Booting worker with pid: 28590
+2013-06-03 21:21:31 [28591] [INFO] Booting worker with pid: 28591
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-03 21:31:03 [29004] [INFO] Starting gunicorn 0.17.2
+2013-06-03 21:31:03 [29004] [INFO] Listening at: http://127.0.0.1:8000 (29004)
+2013-06-03 21:31:03 [29004] [INFO] Using worker: egg:gunicorn#sync
+2013-06-03 21:31:03 [29009] [INFO] Booting worker with pid: 29009
+2013-06-03 21:31:03 [29010] [INFO] Booting worker with pid: 29010
+2013-06-03 21:31:03 [29011] [INFO] Booting worker with pid: 29011
+2013-06-03 21:31:03 [29012] [INFO] Booting worker with pid: 29012
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-06-04 10:29:20.896222) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-06-04 10:29:20.953388) while time zone support is active.
+  RuntimeWarning)
+2013-06-05 02:29:09 [12519] [INFO] Starting gunicorn 0.17.2
+2013-06-05 02:29:09 [12519] [INFO] Listening at: http://127.0.0.1:8000 (12519)
+2013-06-05 02:29:09 [12519] [INFO] Using worker: egg:gunicorn#sync
+2013-06-05 02:29:09 [12524] [INFO] Booting worker with pid: 12524
+2013-06-05 02:29:09 [12525] [INFO] Booting worker with pid: 12525
+2013-06-05 02:29:09 [12526] [INFO] Booting worker with pid: 12526
+2013-06-05 02:29:09 [12527] [INFO] Booting worker with pid: 12527
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-05 16:07:10 [17577] [INFO] Starting gunicorn 0.17.2
+2013-06-05 16:07:10 [17577] [INFO] Listening at: http://127.0.0.1:8000 (17577)
+2013-06-05 16:07:10 [17577] [INFO] Using worker: egg:gunicorn#sync
+2013-06-05 16:07:10 [17582] [INFO] Booting worker with pid: 17582
+2013-06-05 16:07:10 [17583] [INFO] Booting worker with pid: 17583
+2013-06-05 16:07:10 [17584] [INFO] Booting worker with pid: 17584
+2013-06-05 16:07:10 [17585] [INFO] Booting worker with pid: 17585
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-05 16:15:58 [17869] [INFO] Starting gunicorn 0.17.2
+2013-06-05 16:15:58 [17869] [INFO] Listening at: http://127.0.0.1:8000 (17869)
+2013-06-05 16:15:58 [17869] [INFO] Using worker: egg:gunicorn#sync
+2013-06-05 16:15:58 [17874] [INFO] Booting worker with pid: 17874
+2013-06-05 16:15:58 [17875] [INFO] Booting worker with pid: 17875
+2013-06-05 16:15:58 [17876] [INFO] Booting worker with pid: 17876
+2013-06-05 16:15:58 [17877] [INFO] Booting worker with pid: 17877
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-06-05 16:37:02 [18572] [INFO] Starting gunicorn 0.17.2
+2013-06-05 16:37:02 [18572] [INFO] Listening at: http://127.0.0.1:8000 (18572)
+2013-06-05 16:37:02 [18572] [INFO] Using worker: egg:gunicorn#sync
+2013-06-05 16:37:02 [18577] [INFO] Booting worker with pid: 18577
+2013-06-05 16:37:02 [18578] [INFO] Booting worker with pid: 18578
+2013-06-05 16:37:02 [18579] [INFO] Booting worker with pid: 18579
+2013-06-05 16:37:02 [18580] [INFO] Booting worker with pid: 18580
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-05 17:11:12 [19202] [INFO] Starting gunicorn 0.17.2
+2013-06-05 17:11:12 [19202] [INFO] Listening at: http://127.0.0.1:8000 (19202)
+2013-06-05 17:11:12 [19202] [INFO] Using worker: egg:gunicorn#sync
+2013-06-05 17:11:12 [19207] [INFO] Booting worker with pid: 19207
+2013-06-05 17:11:12 [19208] [INFO] Booting worker with pid: 19208
+2013-06-05 17:11:12 [19209] [INFO] Booting worker with pid: 19209
+2013-06-05 17:11:12 [19210] [INFO] Booting worker with pid: 19210
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-06-05 17:13:12 [19459] [INFO] Starting gunicorn 0.17.2
+2013-06-05 17:13:12 [19459] [INFO] Listening at: http://127.0.0.1:8000 (19459)
+2013-06-05 17:13:12 [19459] [INFO] Using worker: egg:gunicorn#sync
+2013-06-05 17:13:12 [19464] [INFO] Booting worker with pid: 19464
+2013-06-05 17:13:12 [19465] [INFO] Booting worker with pid: 19465
+2013-06-05 17:13:12 [19466] [INFO] Booting worker with pid: 19466
+2013-06-05 17:13:12 [19467] [INFO] Booting worker with pid: 19467
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-06-06 13:51:08.551976) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-06-06 13:51:08.592137) while time zone support is active.
+  RuntimeWarning)
+2013-06-06 17:52:53 [32127] [INFO] Starting gunicorn 0.17.2
+2013-06-06 17:52:53 [32127] [INFO] Listening at: http://127.0.0.1:8000 (32127)
+2013-06-06 17:52:53 [32127] [INFO] Using worker: egg:gunicorn#sync
+2013-06-06 17:52:53 [32132] [INFO] Booting worker with pid: 32132
+2013-06-06 17:52:53 [32133] [INFO] Booting worker with pid: 32133
+2013-06-06 17:52:53 [32134] [INFO] Booting worker with pid: 32134
+2013-06-06 17:52:53 [32135] [INFO] Booting worker with pid: 32135
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-06-10 21:32:46 [23055] [INFO] Starting gunicorn 0.17.2
+2013-06-10 21:32:46 [23055] [INFO] Listening at: http://127.0.0.1:8000 (23055)
+2013-06-10 21:32:46 [23055] [INFO] Using worker: egg:gunicorn#sync
+2013-06-10 21:32:46 [23060] [INFO] Booting worker with pid: 23060
+2013-06-10 21:32:46 [23061] [INFO] Booting worker with pid: 23061
+2013-06-10 21:32:46 [23062] [INFO] Booting worker with pid: 23062
+2013-06-10 21:32:46 [23063] [INFO] Booting worker with pid: 23063
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+2013-06-10 23:14:24 [24791] [INFO] Starting gunicorn 0.17.2
+2013-06-10 23:14:24 [24791] [INFO] Listening at: http://127.0.0.1:8000 (24791)
+2013-06-10 23:14:24 [24791] [INFO] Using worker: egg:gunicorn#sync
+2013-06-10 23:14:24 [24796] [INFO] Booting worker with pid: 24796
+2013-06-10 23:14:24 [24797] [INFO] Booting worker with pid: 24797
+2013-06-10 23:14:24 [24798] [INFO] Booting worker with pid: 24798
+2013-06-10 23:14:24 [24799] [INFO] Booting worker with pid: 24799
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-06-12 21:46:40 [4873] [INFO] Starting gunicorn 0.17.2
+2013-06-12 21:46:40 [4873] [INFO] Listening at: http://127.0.0.1:8000 (4873)
+2013-06-12 21:46:40 [4873] [INFO] Using worker: egg:gunicorn#sync
+2013-06-12 21:46:40 [4878] [INFO] Booting worker with pid: 4878
+2013-06-12 21:46:40 [4879] [INFO] Booting worker with pid: 4879
+2013-06-12 21:46:40 [4880] [INFO] Booting worker with pid: 4880
+2013-06-12 21:46:40 [4881] [INFO] Booting worker with pid: 4881
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+2013-06-17 19:23:37 [3728] [INFO] Starting gunicorn 0.17.2
+2013-06-17 19:23:37 [3728] [INFO] Listening at: http://127.0.0.1:8000 (3728)
+2013-06-17 19:23:37 [3728] [INFO] Using worker: egg:gunicorn#sync
+2013-06-17 19:23:37 [3733] [INFO] Booting worker with pid: 3733
+2013-06-17 19:23:37 [3734] [INFO] Booting worker with pid: 3734
+2013-06-17 19:23:37 [3735] [INFO] Booting worker with pid: 3735
+2013-06-17 19:23:37 [3736] [INFO] Booting worker with pid: 3736
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/views/generic/simple.py:8: DeprecationWarning: Function-based generic views have been deprecated; use class-based views instead.
+  DeprecationWarning
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-09 10:00:53.121145) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-09 10:00:53.178839) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 16:13:23.334758) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 16:13:23.377708) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:10:35.092769) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:10:35.139327) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:13:55.696416) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/template/defaulttags.py:1235: DeprecationWarning: The syntax for the url template tag is changing. Load the `url` tag from the `future` tag library to start using the new behavior.
+  category=DeprecationWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:13:55.748163) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:16:06.037569) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:22:37.999517) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:22:38.036449) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:22:53.969175) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:22:54.016462) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-26 17:24:10.821712) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-27 20:29:36.660748) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-27 20:29:36.705700) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-28 19:44:27.014757) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-28 19:44:27.063475) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-29 12:18:26.770457) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-07-29 12:18:26.808878) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-01 16:47:58.436319) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-01 16:47:58.505433) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 01:58:04.227270) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 01:58:04.265094) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 01:59:38.048021) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 01:59:46.367274) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 01:59:46.410883) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 02:05:32.323564) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 02:05:32.356300) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 02:05:46.674152) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 02:09:03.503337) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-09 02:09:03.544457) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-12 19:05:46.523715) while time zone support is active.
+  RuntimeWarning)
+/var/www/kiqlist/env.kiqlist/lib/python2.6/site-packages/django/db/models/fields/__init__.py:808: RuntimeWarning: DateTimeField received a naive datetime (2013-08-12 19:05:46.569581) while time zone support is active.
+  RuntimeWarning)
+2013-08-20 20:57:02 [3733] [INFO] Worker exiting (pid: 3733)
+2013-08-20 20:57:02 [3734] [INFO] Worker exiting (pid: 3734)
+2013-08-20 20:57:02 [3736] [INFO] Worker exiting (pid: 3736)
+2013-08-20 20:57:02 [3735] [INFO] Worker exiting (pid: 3735)
+2013-08-20 15:57:02 [3728] [INFO] Handling signal: term
+2013-08-20 15:57:02 [3728] [INFO] Shutting down: Master

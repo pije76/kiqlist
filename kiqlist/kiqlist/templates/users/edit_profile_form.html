@@ -1,0 +1,36 @@
+{% load url from future %}
+
+<form method="post" action="{% url 'users.views.edit_profile' %}">
+	{% csrf_token %}
+
+	<ul class="errorlist non-field-errors">
+		{% for error in form.non_field_errors %}
+			<li>{{ error }}</li>
+		{% endfor %}
+	</ul>
+
+	<div {% if form.first_name.errors %}class="error"{% endif %}>
+		<label>{{ form.first_name.label }}:</label>
+		<input type="text" name="first_name" value="{% if form.first_name.value %}{{ form.first_name.value }}{% endif %}"/>
+	</div>
+	<div {% if form.last_name.errors %}class="error"{% endif %}>
+		<label>{{ form.last_name.label }}:</label>
+		<input type="text" name="last_name" value="{% if form.last_name.value %}{{ form.last_name.value }}{% endif %}"/>
+	</div>
+	<div {% if form.email.errors %}class="error"{% endif %}>
+		<label>{{ form.email.label }}:</label>
+		<input type="text" name="email" value="{% if form.email.value %}{{ form.email.value }}{% endif %}"/>
+	</div>
+	<div {% if form.about.errors %}class="error"{% endif %}>
+		<label>{{ form.about.label }}:</label>
+		<input type="text" name="about" value="{% if form.about.value %}{{ form.about.value }}{% endif %}"/>
+	</div>
+	<div {% if form.location.errors %}class="error"{% endif %}>
+		<label>{{ form.location.label }}:</label>
+		<input type="text" name="location" value="{% if form.location.value %}{{ form.location.value }}{% endif %}"/>
+	</div>
+
+	<div class="submit">
+		<input type="submit" value="Save"/>
+	</div>
+</form>

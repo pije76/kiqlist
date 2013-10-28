@@ -1,0 +1,85 @@
+{% load url from future %}
+
+<form method="post" action="{% if relist_goal %}{% url 'goals.views.relist' relist_goal.pk %}{% else %}{% if not instance %}{% url 'goals.views.add' %}{% else %}{% url 'goals.views.edit' instance.pk %}{% endif %}{% endif %}" enctype="multipart/form-data">
+	{% csrf_token %}
+
+	<ul class="errorlist non-field-errors">
+		{% for error in form.non_field_errors %}
+			<li>{{ error }}</li>
+		{% endfor %}
+	</ul>
+
+	<input type="hidden" name="image" class="{% if form.image.errors %}error{% endif %} wiki-image" value="{% if form.image.value %}{{ form.image.value }}{% endif %}"/>
+	{% if form.image.errors %}
+		<ul class="errorlist">
+			{% for error in form.image.errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+	<label>Title:</label>
+	<input type="text" name="title" {% if form.title.errors %}class="error"{% endif %} value="{% if form.title.value %}{{ form.title.value }}{% endif %}"/>
+	{% if form.title.errors %}
+		<ul class="errorlist">
+			{% for error in form.title.errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+	<label>Description:</label>
+	<textarea name="description" {% if form.description.errors %}class="error"{% endif %}>{% if form.description.value %}{{ form.description.value }}{% endif %}</textarea>
+	{% if form.description.errors %}
+		<ul class="errorlist">
+			{% for error in form.description.errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+	<label>Due date:</label>
+	<input type="text" name="due_date" {% if form.due_date.errors %}class="error"{% endif %} value="{% if form.due_date.value %}{{ form.due_date.value|date:'m/d/Y' }}{% endif %}"/>
+	{% if form.due_date.errors %}
+		<ul class="errorlist">
+			{% for error in form.due_date.errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+	<label>Tags:</label>
+	<input type="text" name="status-tags" {% if form.tags.errors %}class="error"{% endif %} value="{% if form.tags.value %}{{ form.tags.value }}{% endif %}" placeholder="#adventure, #charity, ..."/>
+	{% if form.tags.errors %}
+		<ul class="errorlist">
+			{% for error in form.tags.errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+	<label>Would you like others to help you with this goal?</label>
+	<input type="radio" name="need_help" value="true" {% if form.need_help.errors %}class="error"{% endif %}/>Yes please. Even Iron Man needs the occasional backup.<br/>
+	<input type="radio" name="need_help" value="false" {% if form.need_help.errors %}class="error"{% endif %} checked="checked"/>No thanks. I prefer to fly solo.
+	{% if form.need_help.errors %}
+		<ul class="errorlist">
+			{% for error in form.need_help.errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+	<div class="submit">
+		<input type="submit" value="{% if not instance %}Add{% else %}Save{% endif %}"/>
+	</div>
+</form>
+
+
+<script type="text/javascript">
+$(function () {
+	$(".wiki-image").wikiImageWidget();
+	$(".wiki-image").removeClass("wiki-image");
+
+	$("input[name=due_date]").datepicker();
+});
+</script>

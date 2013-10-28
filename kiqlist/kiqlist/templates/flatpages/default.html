@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block pagetype %}flatpage{% endblock %}
+{% block title %}{% trans flatpage.title %}{% endblock %}
+
+{% block content %}
+	<h1>{% trans flatpage.title %}</h1>
+	<p>{{ flatpage.content }}</p>
+{% endblock %}

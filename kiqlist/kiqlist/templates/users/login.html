@@ -1,0 +1,33 @@
+{% load url from future %}
+
+<form method="post" action="{% url 'users.views.login' %}">
+	{% csrf_token %}
+
+	<ul class="errorlist non-field-errors">
+		{% for error in form.non_field_errors %}
+			<li>{{ error }}</li>
+		{% endfor %}
+	</ul>
+
+	<input type="text" name="username" placeholder="{{ form.username.label }}" {% if form.username.value %}value="{{ form.username.value }}"{% endif %} {% if form.username.errors %}class="error"{% endif %}/>
+	<input type="password" name="password" placeholder="{{ form.password.label }}" {% if form.password.errors %}class="error"{% endif %}/>
+
+	<div class="submit">
+		<input type="submit" value="Login"/>
+	</div>
+</form>
+
+<p class="or">or use social networks:</p>
+<div class="social-networks">
+	<ul>
+		<li><a href="{% url 'socialauth_begin' 'facebook' %}"><img src="{{ STATIC_URL }}img/facebook.png"/></a></li>
+		<li><a href="{% url 'socialauth_begin' 'twitter' %}"><img src="{{ STATIC_URL }}img/twitter.png"/></a></li>
+	</ul>
+</div>
+<form method="post" action="{% url 'socialauth_begin' 'openid' %}">
+	{% csrf_token %}
+	<input type="text" value="" name="openid_identifier" placeholder="OpenID"/>
+	<div class="submit">
+		<input type="submit" value="Login"/>
+	</div>
+</form>

@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Conv_Abadi-MT-Condensed-Light-Regular';
+	src: url('/static/fonts/Abadi-MT-Condensed-Light-Regular.eot');
+	src: local('☺'), url('/static/fonts/Abadi-MT-Condensed-Light-Regular.woff') format('woff'), url('fonts/Abadi-MT-Condensed-Light-Regular.ttf') format('truetype'), url('fonts/Abadi-MT-Condensed-Light-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Houschka_Rounded_Medium';
+    src: url('/static/fonts/houschka_rounded_medium.eot');
+    src: url('/static/fonts/houschka_rounded_medium.woff') format('woff'), url('/static/fonts/houschka_rounded_medium.ttf') format('truetype');
+}
+

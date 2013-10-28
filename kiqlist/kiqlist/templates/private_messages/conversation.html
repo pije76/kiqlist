@@ -1,0 +1,30 @@
+{% load url from future %}
+{% load humanize %}
+
+<div class="back">
+	<a href="{% url 'private_messages.views.index' %}"><img src="{{ STATIC_URL }}img/icons/back.png"/> Back</a>
+</div>
+
+<h2>Conversation with {{ interlocutor.first_name }} {{ interlocutor.last_name }}</h2>
+
+<div class="conversation">
+	{% for private_message in private_messages %}
+
+		<div class="private-message {% if private_message.from_user == user %}out{% else %}in{% endif %}">
+			<p>{{ private_message.content }}</p>
+			<div class="created">{{ private_message.created|naturaltime }}</div>
+		</div>
+	{% endfor %}
+</div>
+
+<div class="add-private-message-form">
+	<form method="post" action="{% url 'private_messages.views.add_private_message' %}">
+		{% csrf_token %}
+		<input type="hidden" name="to_user" value="{{ interlocutor.pk }}"/>
+		<textarea name="content"></textarea>
+
+		<div class="submit">
+			<input type="submit" value="Send"/>
+		</div>
+	</form>
+</div>
