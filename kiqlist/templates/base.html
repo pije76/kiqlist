@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+{% load static %}
+{% load url from future %}
+{% load thumbnail %}
+
+<html>
+<head>
+    <title>KiqList - {% block title %}Home{% endblock %}</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/fonts.css" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/global.css' %}" type="text/css"/>
+
+    <link href="{{ STATIC_URL }}css/kiqlist-theme/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/keyboard.0.4.1.min.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/backgroundOverlay.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/jquery.topPopup.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/jquery.ajaxForm.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/jquery.wikiImageWidget.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/route.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/lib/jquery.masonry.min.js"></script>
+
+    <script type="text/javascript" src="{{ STATIC_URL }}js/request.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/messages.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/header.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/goal-comments.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/goal-view.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/masonry.js"></script>
+
+    {% block scripts %}{% endblock %}
+
+    <script type="text/x-jquery-tmpl" id="message-tmpl">
+        <li class="message ${tags}">
+            <a href="#" class="close">
+                <img src="{% static 'img/icons/close_message.png' %}"/>
+            </a>
+
+            <p>${text}</p>
+        </li>
+    </script>
+
+    
+        <script type="text/javascript" src="{{ STATIC_URL }}js/private-messages.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/notifications.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/tags.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/quick-widget.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/following-activity.js"></script>
+
+  
+</head>
+<body id="www-kiqlist-com" class="kiqlist-{% block pagetype %}default{% endblock %}">
+<div id="helper" class="hidden"></div>
+<div id="goal-view" class="hidden"></div>
+<div class="login-form hidden"></div>
+<div class="register-form hidden"></div>
+<div class="see-more-info hidden"></div>
+<header>
+    <div id="about-dropdown" class="dropdown">
+        <ul>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/about/terms/">Terms</a></li>
+            <li><a href="/about/">Help</a></li>
+        </ul>
+    </div>
+    <div id="user-dropdown" class="dropdown">
+        <ul>
+			<li><a href="#" class="private-messages-link">Messages</a></li>
+            <li><a href="{% url 'users.views.friends' %}">People</a></li>
+            <li><a href="{% url 'users.views.settings' %}">Settings</a></li>
+            <li><a href="{% url 'users.views.logout' %}">Log out</a></li>
+        </ul>
+    </div>
+    <div class="notifications-list dropdown hidden">
+		<ul>
+			<li>
+				<a id="see-more">See more</a>
+				<span id="no-notifications">No notifications</span>
+			</li>
+		</ul>
+	</div>
+
+    <div id="quick-widget"><a href="#"><img src="{% static 'img/icons/quick_widget.png' %}"/></a></div>
+    <div class="quick-widget-forms hidden">
+        <div class="tabs">
+            <ul>
+                <li class="tab goal-tab"><a href="#">Goal</a></li>
+                <li class="tab status-tab"><a href="#">Status</a></li>
+            </ul>
+			<div class="selected-image">
+				<span>Upload a photo</span>
+			</div>
+        </div>
+
+        <div class="add-goal-form tab-content hidden"></div>
+        <div class="add-status-form tab-content hidden"></div>
+    </div>
+    <div id="left">
+        <a href="{% url 'kiqlist.views.home' %}" class="home-link">&nbsp;</a>
+
+        <div id="left-bar">
+            <ul>
+                <li>
+                    <a id="dashboard-link" href="/dashboard/">Dashboard</a>
+                </li>
+                <li>
+                    <a href="/tags/hashroll/"># Hashroll</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="search-by-tag-bar"></div>
+    <div class="top-bar {% if user.is_anonymous %}not-authorized{% endif %}">
+        <ul>
+            {% if user.is_anonymous %}
+                <li>
+                    <a href="#" class="login-link">Login</a>
+				</li>
+                <li>
+                    <a href="#" class="register-link">Register</a>
+                </li>
+            {% else %}
+                <li>
+                    <a href="#" class="notifications-link">
+						<span class="notifications-count"></span>
+						<img id="notifications-icon" src="{{ STATIC_URL }}img/icons/notification.png">
+					</a>
+                </li>
+                <li class="about-link">
+                    <a href="#"><img src="{{ STATIC_URL }}img/icons/about.png"/></a>
+                </li>
+                <li class="user-link">
+                    {% thumbnail user_profile.photo "40x40" crop="center" as profile_photo %}
+                        <a href="/users/profile/"><img src="{{ profile_photo.url }}"/></a>
+                    {% empty %}
+                        <a href="/users/profile/">
+							<img id="no-photo-small" src="{{ STATIC_URL }}img/icons/profile.png">
+						</a>
+                    {% endthumbnail %}
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</header>
+<ul class="messages">
+</ul>
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
+</body>
+</html>

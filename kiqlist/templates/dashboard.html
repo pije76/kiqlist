@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{{ STATIC_URL }}js/goal-counters.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/done-goals.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/statuses.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/content.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+			loadContent("/content/following/", $(".content.dashboard"), {
+				userPk: {{ user.pk }}
+			});
+
+        });
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div class="relist-goal-form edit-goal-form hidden"></div>
+
+    <div class="reply-status-form add-status-form hidden"></div>
+
+    <div class="content dashboard">
+		<div class="dashboard-holder activity-card">
+			<div class="following-activity">
+			</div>
+		</div>
+
+    </div>
+{% endblock %}

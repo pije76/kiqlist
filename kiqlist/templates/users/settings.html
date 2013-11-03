@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+<script type="text/javascript">
+$(function () {
+	$(".edit-profile-form").ajaxForm("/users/edit_profile/", function () {
+		message("success", "Your profile updated.")
+	});
+	$(".edit-password-form").ajaxForm("/users/edit_password/", function () {
+		message("success", "Your password have been changed. ")
+	});
+	$(".edit-profile-photo-form").load("/users/edit_profile_photo/", function () {
+		var self = this;
+
+		$(this).find(".delete-button").click(function () {
+			$(self).find("input[name=delete]").val(1);
+		})
+	});
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="content settings">
+	<div class="column column-1">
+		<div class="form edit-profile-photo-form">
+		</div>
+
+		<div class="form edit-profile-form">
+		</div>
+
+		<div class="form edit-password-form">
+		</div>
+	</div>
+</div>
+{% endblock %}

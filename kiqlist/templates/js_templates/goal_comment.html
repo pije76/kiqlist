@@ -1,0 +1,14 @@
+<div class="comment">
+	<div class="author">
+		<a href="/users/profile/${user.pk}/">${user.first_name} ${user.last_name}</a>
+	</div>
+	{% templatetag openvariable %}if user.photo{% templatetag closevariable %}
+		<div class="userpic">
+			<img src="${user.photo}"/>
+		</div>
+	{% templatetag openvariable %}/if{% templatetag closevariable %}
+	<p>${content}</p>
+	<div class="created">
+		${created}
+	</div>
+</div>

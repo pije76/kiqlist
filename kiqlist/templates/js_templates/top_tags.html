@@ -1,0 +1,7 @@
+<h3>Discover</h3>
+
+<ul>
+	{% templatetag openvariable %}each topTags{% templatetag closevariable %}
+		<li><a href="/tags/search/${$value}">${$value}</a></li>
+	{% templatetag openvariable %}/each{% templatetag closevariable %}
+</ul>

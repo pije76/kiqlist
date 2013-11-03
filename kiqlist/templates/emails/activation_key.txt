@@ -1,0 +1,4 @@
+{% load url from future %}
+Hi {{ user.first_name }} {{ user.last_name }}!
+You're almost done. Just click on the link below to confirm your account:
+http://{{ current_site.domain}}{% url 'users.views.activate' activation_key.key %}

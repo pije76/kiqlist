@@ -1,0 +1,17 @@
+{% load url from future %}
+
+<form method="post" action="{% if reply_status %}{% url 'statuses.views.reply' reply_status.pk %}{% else %}{% url 'statuses.views.add' %}{% endif %}">
+	{% csrf_token %}
+
+	<ul class="errorlist non-field-errors">
+		{% for error in form.non_field_errors %}
+			<li>{{ error }}</li>
+		{% endfor %}
+	</ul>
+
+	<textarea name="content" {% if form.content.errors %}class="error"{% endif %}>{% if form.content.value %}{{ form.content.value }}{% endif %}</textarea>
+	<input id="status-tags" type="text" name="status-tags" placeholder="#adventure, #charity, ..."/>
+	<div class="submit">
+		<input type="submit" value="Send"/>
+	</div>
+</form>

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{ STATIC_URL }}js/goal-counters.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/done-goals.js"></script>
+<script type="text/javascript">
+$(function () {
+	loadMostPopularDoneGoals($('.content.most-popular'));
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="relist-goal-form edit-goal-form hidden"></div>
+
+<div class="content most-popular">
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% load url from future %}
+{% load thumbnail %}
+
+
+<form method="post" action="{% url 'users.views.edit_profile_photo' %}" enctype="multipart/form-data">
+	{% csrf_token %}
+
+	<ul class="errorlist non-field-errors">
+		{% for error in form.non_field_errors %}
+			<li>{{ error }}</li>
+		{% endfor %}
+	</ul>
+
+	{% thumbnail profile.photo "320x200" crop="center" as im %}
+		<div class="photo">
+			<img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"/>
+		</div>
+	{% empty %}
+		<p class="no-photo">No photo yet.</p>
+	{% endthumbnail %}
+
+	<div {% if form.photo.errors %}class="error"{% endif %}>
+		<input type="file" name="photo"/>
+	</div>
+
+	<input type="hidden" name="delete" value="0"/>
+
+	<div class="submit">
+		<input type="submit" value="Save"/>
+		<input type="submit" class="delete-button" value="Delete"/>
+	</div>
+</form>
